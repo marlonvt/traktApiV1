@@ -1,1 +1,1 @@
-# traktApiV1
+# Simple code to download your series or movies from https://trakt.tv/ and save as xlsx

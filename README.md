@@ -18,6 +18,7 @@
 *node traktApi.js getBearer <br>
 <br>
 After configure your userConfig file, execute the code below to set your authToken:
+
 ```sh 
 node traktApi.js getBearer 
 ```

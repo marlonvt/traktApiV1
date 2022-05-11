@@ -14,9 +14,18 @@
     "authToken": "generated after you set yout username, authorizeCode, clientID and clientSecret and execute*"
 }
 ```
-
-<br><br>
-*node traktApi.js getBearer
 <br>
-After configure your userConfig file, execute node traktApi.js getBearer to set your bearer token <br>
-Then you can execute node traktApi.js movies or node traktApi.js shows to save your lists on xls format
+*node traktApi.js getBearer <br>
+<br>
+After configure your userConfig file, execute the code below to set your authToken:
+```sh 
+node traktApi.js getBearer 
+```
+`If the token expires, get another authorizeCode on the site and run getBearer again` <br>
+<br>
+Then you can execute one of the two codes to get your movies or your shows:
+
+```sh
+node traktApi.js movies
+node traktApi.js shows
+```
